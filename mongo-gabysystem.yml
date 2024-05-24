@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  mongo-gabysystem:
+    image: gabyreload1983/mongo-gabysystem:vx.x.x
+    container_name: mongo-gabysystem
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=
+      - MONGO_INITDB_ROOT_PASSWORD=
+    volumes:
+      - ./mongo-data:/data/db
