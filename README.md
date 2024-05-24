@@ -1,6 +1,8 @@
-# GabySystem Database 🚀
+# GabySystem Database
 
 Mongo Database
+
+![MongoDB](https://raw.githubusercontent.com/github/explore/main/topics/mongodb/mongodb.png)
 
 ## Technologies Used
 
