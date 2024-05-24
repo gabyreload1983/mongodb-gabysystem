@@ -23,8 +23,8 @@ To set up Mongo Database and get it running on your local development environmen
 ## Installation
 
 1. Download mongo-gabysystem.yml
-1. Complete environmet variables MONGO_INITDB_ROOT_USERNAME, MONGO_INITDB_ROOT_PASSWORD in mongo-gabysystem.yml file
-1. Run docker-compose -f mongo-gabysystem.yml up -d
-1. Connect to database with MongoDB Compass
+2. Complete environmet variables MONGO_INITDB_ROOT_USERNAME, MONGO_INITDB_ROOT_PASSWORD and repo version in mongo-gabysystem.yml file
+3. Run docker-compose -f mongo-gabysystem.yml up -d
+4. Connect to database with MongoDB Compass
 
 ## Deploy
